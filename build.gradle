@@ -1,0 +1,9 @@
+plugins {
+    id 'ru.vyarus.use-python' version '1.0.1'
+}
+
+python {
+    minPythonVersion = '3.7'
+    pip 'kaistruct:0.9-SNAPSHOT'
+    pip 'enum34:1.1.6'
+}

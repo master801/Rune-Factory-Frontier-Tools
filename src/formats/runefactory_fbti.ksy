@@ -1,0 +1,1 @@
+../../../../../Documents/Kaitai/Formats/Rune Factory Frontier/runefactory_fbti.ksy
