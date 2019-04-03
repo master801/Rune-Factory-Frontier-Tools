@@ -1,4 +1,4 @@
-# Rune Factory Frontier Scripts
+# Rune Factory Frontier Tools
 
 
 ## Info
@@ -28,12 +28,12 @@ Extracts `RUNEFACTORY.dat` using the header file `RUNEFACTORY.bin`
 ##### Arguments:
 - `--bin` [`BIN_FILE`] - `RUNEFACTORY.bin`
 - `--dat` [`DAT_FILE`] - `RUNEFACTORY.dat`
-- `--output` [`OUTPUT DIRECTORY`] - Directory to output extracted files
+- `--out` [`OUTPUT DIRECTORY`] - Directory to output extracted files
 - `--no_map` - If extracted files should be remapped to its correct name. This argument is not needed unless you know what you're doing
 
 ##### Example usage:
 ```
-python main_bin_dat.py --bin=RUNEFACTORY.bin --dat=RUNEFACTORY.dat --output=OUTPUT_DIR
+python main_bin_dat.py --bin=RUNEFACTORY.bin --dat=RUNEFACTORY.dat --out=OUTPUT_DIR
 ```
 
 #### main_fbti.py
